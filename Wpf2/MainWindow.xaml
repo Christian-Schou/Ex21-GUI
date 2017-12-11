@@ -19,10 +19,10 @@
         <TextBox x:Name="lastnameTextBox" HorizontalAlignment="Left" Height="23" Margin="140,112,0,0" TextWrapping="Wrap" Text="Lastname" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="ageTextBox" HorizontalAlignment="Left" Height="23" Margin="140,138,0,0" TextWrapping="Wrap" Text="Age" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="telephonenrTextBox" HorizontalAlignment="Left" Height="23" Margin="140,164,0,0" TextWrapping="Wrap" Text="Telephone" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="new" Content="New" HorizontalAlignment="Left" Margin="277,86,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="new_Click"/>
-        <Button x:Name="delete" Content="Delete" HorizontalAlignment="Left" Margin="277,112,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="delete_Click"/>
-        <Button x:Name="up" Content="Up" HorizontalAlignment="Left" Margin="277,138,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="up_Click"/>
-        <Button x:Name="down" Content="Down" HorizontalAlignment="Left" Margin="277,164,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="down_Click"/>
+        <Button x:Name="new" Content="New" HorizontalAlignment="Left" Margin="277,86,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="new_Click" FontSize="12"/>
+        <Button x:Name="delete" Content="Delete" HorizontalAlignment="Left" Margin="277,112,0,0" VerticalAlignment="Top" Width="75" Height="23" FontSize="12" Click="delete_Click"/>
+        <Button x:Name="up" Content="Up" HorizontalAlignment="Left" Margin="277,138,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="up_Click" FontSize="12"/>
+        <Button x:Name="down" Content="Down" HorizontalAlignment="Left" Margin="277,164,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="down_Click" FontSize="12"/>
 
     </Grid>
 </Window>
